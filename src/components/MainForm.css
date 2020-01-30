@@ -1,0 +1,129 @@
+.MainForm{
+    position: relative;
+    width: 400px;
+    
+}
+
+input.MainForm__input{
+    position: fixed;
+    left: 100px;
+    top: 220px;
+    width: 400px;
+    padding-left: 15px;
+}
+.form{
+    height: 400px;
+}
+h4.ingridient{
+    
+    max-width: 100px;
+    width: 100%;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: "S F  Pro  Display";
+    filter: drop-shadow(0px 3px 3.5px rgba(0,0,0,0.56));
+    border-radius: 3px;
+    
+}
+h4{
+      
+    position: relative;
+    top: 400px;
+    left: 150px;
+    margin-left: 30px;
+    min-width: 120px;
+    height: 50px;
+   /*  border-radius: 15px; */
+    background-color: #20024e;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 6px;
+    padding-right: 10px;
+    
+    
+}
+/* .ingridient {
+    position: relative;
+    bottom: 12px;
+    margin-left: -30px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 18px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ingridient:hover {
+    color: black;
+}
+.alert{
+    margin-left: 5px!important;
+   
+} */
+.close {
+    /* margin: 30px; */
+    position: absolute;
+    margin-left: 5px;
+    right: -13px;
+    top: -10px;
+    width: 15px;
+    height: 15px;
+    opacity: 0.5;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    top: 25px;
+    left: -9px;
+    content: ' ';
+    height: 13px;
+    width: 2px;
+    background-color: #ffffff;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+
+  .menu{
+    padding-left: 40px;
+    top: 10px;
+    position: fixed;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+  
+  }
+  .menu:after {
+    /* Свойство content необходимо указывать хотя бы пустое, иначе псевдоэлементы не отобразятся */
+    content: "";
+    /* Свойства линий, выравнивание по центру по вертикали */
+    display: inline-block;
+    vertical-align: middle;
+    /* Ширина - 100% и указываем толщину линии */
+    width: 30px;
+    height: 2px;
+    /* Цвет линии */
+    background-color: #ffffff;
+    /* Возможность для пседоэлементов изменить позицию линии */
+    position: relative;
+  }
+  .menu:after {
+    /* Ставим правую линию справа от текста, смещая ее на 100% вправо */
+    margin-right: 70%;
+    /* Отступ линии от заголовка */
+    right: -10px;
+  }

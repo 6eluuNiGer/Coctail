@@ -1,0 +1,136 @@
+
+  /* h4{
+      position: relative;
+      top:0;
+     
+      width:100%;
+  } */
+  div{
+    max-height: 606px;
+   /*  background-image: url(../assets/img/bg.png)!important */;
+   display: block;
+  }
+  .containerr{
+    
+    position: relative;
+      top: 27px;
+      left: 590px;
+      width: 709px;
+      height: 643px;
+      background-color: #20094e;
+      opacity: 95%;
+      border-radius: 5px 5px 0 0;
+      
+  
+   }
+  .NameCocktaill{
+    position: relative;
+    top: 35px;
+    left: 70px;
+    word-spacing: 7px;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 200px;
+    font-family: "S F  Pro  Display";
+    letter-spacing: 2px;
+  }
+  
+  .card-actionn{
+    
+    
+    position: fixed;
+    bottom: 930px;
+    left: 160px
+  }
+  .btnn{
+    width: 178px;
+    height: 51px;
+    filter: drop-shadow(16.992px 20.983px 14.5px rgba(0,0,0,0.43));
+    background-color: #55245c;
+    border: 1px solid #ffffff;
+  box-shadow: none;
+  font-weight: bold;
+  margin: 13px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "S F  Pro  Display";
+  text-transform: uppercase;
+  position: fixed;
+  }
+  .btnn:hover{
+    width: 178px;
+    height: 51px;
+    filter: drop-shadow(16.992px 20.983px 14.5px rgba(0,0,0,0.43));
+    background-image: linear-gradient(266deg, #b243e8 0%, #8c2fde 100%);
+  }
+  
+  .btnn:focus{
+    width: 178px;
+    height: 51px;
+    filter: drop-shadow(16.992px 20.983px 14.5px rgba(0,0,0,0.43));
+    background-image: linear-gradient(266deg, #b243e8 0%, #8c2fde 100%);
+  }
+  
+  
+  .titlee{
+    font-size: 33px;
+    color: #ffffff;
+    position: relative;
+    bottom: 530px;
+    width: 420px;
+    left: 100px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+  }
+  .titlee_low{
+    font-size: 11px;
+    color: #ffffff;
+    position: relative;
+    bottom: 290px;
+    width: 420px;
+    left: 100px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    
+  }
+  
+  .titlee_low:after{content: "";
+    position: absolute;
+    height:2px;
+    background: #ffffff;
+    top: 60px;
+    width:15%;
+    left: 0%
+    
+  }
+  .footer{
+    font-size: 11px;
+    color: #ffffff;
+    position: relative;
+    bottom: 337px;
+    width: 450px;
+    left: 150px;
+    word-spacing:10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .footer:after{content: "";
+    position: absolute;
+    height:2px;
+    background: #ffffff;
+    top: 25px;
+    width:8%;
+    left: 0%
+    
+  }
+
+.img{
+  width: 300px;
+  height: 500px;
+  opacity: 1;
+  position: relative;
+  left:230px;
+  padding-top: 30px;
+}

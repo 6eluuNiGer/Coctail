@@ -1,0 +1,37 @@
+.menu{
+    
+    left:  900px;
+    padding-left: 40px;
+    bottom: 15px;
+    position: relative;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+  
+  }
+  .menu:after {
+    /* Свойство content необходимо указывать хотя бы пустое, иначе псевдоэлементы не отобразятся */
+    content: "";
+    /* Свойства линий, выравнивание по центру по вертикали */
+    display: inline-block;
+    vertical-align: middle;
+    /* Ширина - 100% и указываем толщину линии */
+    width: 35px;
+    height: 2px;
+    /* Цвет линии */
+    background-color: #ffffff;
+    /* Возможность для пседоэлементов изменить позицию линии */
+    position: relative;
+  }
+  .menu:after {
+    /* Ставим правую линию справа от текста, смещая ее на 100% вправо */
+    margin-right: 70%;
+    /* Отступ линии от заголовка */
+    right: -10px;
+  }

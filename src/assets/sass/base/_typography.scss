@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+
+$font-primary: 'Open Sans', sans-serif;
+$font-secondary: 'Alex Brush', cursive;
+
+@mixin title-main() {
+  font-family: $font-secondary;
+  font-size: 75px;
+  text-shadow: 0 4px 4px #000000;
+  color: $text-info;
+  display: block;
+  text-align: center;
+}

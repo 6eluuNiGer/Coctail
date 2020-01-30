@@ -1,0 +1,19 @@
+.MainForm {
+  @include flex-generic(center, center);
+
+  form {
+    position: relative;
+  }
+
+  &__input {
+    @include input-primary();
+  }
+
+  &__label {
+    position: absolute;
+    top: 50%;
+    right: 24px;
+    transform: translateY(-50%);
+    height: 24px;
+  }
+}

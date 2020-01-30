@@ -1,0 +1,63 @@
+@mixin flex-generic($align, $justify) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  
+}
+
+@mixin grid-generic($columns, $gap) {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10%;
+  justify-content: center;
+  overflow: auto;  
+  height: 550px;
+
+
+}
+
+::-webkit-scrollbar-button {
+  width: 5px;
+  height: 13px
+}
+
+/* Цвет дорожки, по которой двигается бегунок прокрутки. */
+::-webkit-scrollbar-track {
+  background-color: #6d046d
+}
+
+/* Цвет бегунка полосы, а так же его закругление. */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 20px;
+  background-color: #9f6dc8;
+}
+
+/* Цвет бегунка при наведении на него курсора. */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #56999f;
+}
+
+/* Основная ширина полосы прокрутки. */
+::-webkit-resizer {
+  width: 4px;
+  height: 1px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+@mixin overlay() {
+  position: relative;
+  left: 0;
+  top: -100px;
+  width: 100vw;
+  min-height: 110vh;
+  background: $transparent-bg;
+  z-index: 1000;
+}
+
+@mixin stretch() {
+  height: 100%;
+  width: 100%;
+}

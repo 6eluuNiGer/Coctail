@@ -1,0 +1,26 @@
+button {
+  
+  background: none;
+  cursor: pointer;
+  color: $text-primary;
+  transition: all .25s ease-in;
+  position: relative;
+  &:hover,
+  &:active {
+    color: $text-info;
+  }
+}
+
+@mixin button-primary() {
+  border: 1px solid $text-primary;
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 10px 75px;
+  @include shadow-button();
+
+  &:hover {
+    background: $text-info;
+    border: 1px solid $text-info;
+    color: $text-primary;
+  }
+}

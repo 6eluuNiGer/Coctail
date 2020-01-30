@@ -1,0 +1,73 @@
+div.form{
+    position: fixed;
+    left: 590px;
+    width: 709px;
+height: 670px;
+background-color: #20094e;
+opacity: 1;
+bottom: 0px;
+border-radius: 5px 5px 0 0;
+
+
+}
+.Home{
+    display: flex;
+    width: 1200px ;
+    height: 100px;
+}
+.title{
+    position: fixed;
+    color:#fff;
+    font-size: 33px;
+    left: 100px;
+    top: 100px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    width: 470px;
+}
+
+.title_low{
+    position: fixed;
+    color:#fff;
+    font-size: 33px;
+    left: 100px;
+    top: 300px;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+}
+
+  .card-action{
+  
+  
+    position: fixed;
+    bottom: 20px;
+    left: 210px
+  }
+  .btn{
+    width: 178px;
+    height: 51px;
+    
+    background-color: #55245c;
+    border: 1px solid #ffffff;
+  box-shadow: none;
+  font-weight: bold;
+  margin: 13px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "S F  Pro  Display";
+  text-transform: uppercase;
+  }
+  .btn:hover{
+    width: 178px;
+    height: 51px;
+    filter: drop-shadow(16.992px 20.983px 14.5px rgba(0,0,0,0.43));
+    background-image: linear-gradient(266deg, #b243e8 0%, #8c2fde 100%);
+  }
+  
+  .btn:focus{
+    width: 178px;
+    height: 51px;
+    filter: drop-shadow(16.992px 20.983px 14.5px rgba(0,0,0,0.43));
+    background-image: linear-gradient(266deg, #b243e8 0%, #8c2fde 100%);
+  }
