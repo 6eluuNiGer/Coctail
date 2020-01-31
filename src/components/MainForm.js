@@ -73,7 +73,7 @@ const MainForm = ({ history }) => {
         <button
           className="btn "
           onClick={query && getRecipes}
-          disabled
+          /* disabled */
         >
           Start mixing
            </button>
