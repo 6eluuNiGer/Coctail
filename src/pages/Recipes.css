@@ -1,0 +1,8 @@
+div.errors{
+    position: fixed;
+    bottom: 300px;
+    margin-left: 200px;
+   text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}

@@ -38,7 +38,7 @@ const Recipe = () => {
           <div className="Recipe__ingredients">
             <h3 className="Recipe__title">{recipe.strDrink}</h3>
             {ingredientsRenderer().map((item, index) => {
-              return <p key={index}>{item}</p>
+              return <p key={index}>{item.replace("null", "as desire")}</p>
             })}
           </div>
         </div> : <LoopCircleLoading color='#9307fe' size='large'  />}

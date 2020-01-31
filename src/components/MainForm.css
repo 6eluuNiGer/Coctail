@@ -15,7 +15,7 @@ input.MainForm__input{
     height: 400px;
 }
 h4.ingridient{
-    
+  
     max-width: 100px;
     width: 100%;
     font-size: 24px;
@@ -24,17 +24,16 @@ h4.ingridient{
     font-family: "S F  Pro  Display";
     filter: drop-shadow(0px 3px 3.5px rgba(0,0,0,0.56));
     border-radius: 3px;
-    
+   
 }
 h4{
-      
+    
     position: relative;
     top: 400px;
-    left: 150px;
+    left: 90px;
     margin-left: 30px;
-    min-width: 120px;
+    min-width: 30%;
     height: 50px;
-   /*  border-radius: 15px; */
     background-color: #20024e;
     border: 2px solid #ffffff;
     color: #ffffff;
@@ -44,26 +43,7 @@ h4{
     
     
 }
-/* .ingridient {
-    position: relative;
-    bottom: 12px;
-    margin-left: -30px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 18px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
 
-.ingridient:hover {
-    color: black;
-}
-.alert{
-    margin-left: 5px!important;
-   
-} */
 .close {
     /* margin: 30px; */
     position: absolute;
@@ -95,6 +75,7 @@ h4{
 
   .menu{
     padding-left: 40px;
+    padding-top: px ;
     top: 10px;
     position: fixed;
     color: #ffffff;

@@ -1,7 +1,7 @@
 {
   "name": "cocktail",
   "version": "0.1.0",
-  "private": true,
+  "private": true,  
   "dependencies": {
     "axios": "^0.18.1",
     "lodash": "^4.17.15",

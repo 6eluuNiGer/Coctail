@@ -26,6 +26,8 @@ const MainForm = ({ history }) => {
     // Reset input field to default value
     setQuery('');
     history.push('/home');
+    
+
   };
 
   const backMenu = e => {
@@ -40,15 +42,18 @@ const MainForm = ({ history }) => {
     <div className="MainForm">
       <form onSubmit={getRecipes} className="MainForm">
         <input
+          pattern="[a-z]{1,15}"
+          title="ingrigients should only contain English letters. e.g. rum"
           className="MainForm__input"
           type="search"
           value={query}
           onChange={e => setQuery(e.target.value.toLowerCase())}
-          placeholder="e.g vodka,rum"
+          placeholder="e.g. rum"
           name="query"
           autoComplete="off"
           autoFocus="on"
           required
+          
         />
         <label
           className="MainForm__label"
@@ -67,15 +72,17 @@ const MainForm = ({ history }) => {
       <div className="card-action" >
         <button
           className="btn "
-          onClick={getRecipes}
+          onClick={query && getRecipes}
+          disabled
         >
           Start mixing
            </button>
       </div>
-
       <button
+      
         className="menu"
         onClick={backMenu}
+        
       >
         menu
            </button>

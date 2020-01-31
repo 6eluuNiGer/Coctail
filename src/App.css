@@ -1,9 +1,9 @@
 .menu{
     
-    left:  900px;
+    left:  1200px;
     padding-left: 40px;
-    bottom: 15px;
-    position: relative;
+    top:18px;
+    position: fixed;
     color: #ffffff;
     font-size: 11px;
     font-weight: bold;
@@ -15,6 +15,7 @@
     border: none;
   
   }
+  
   .menu:after {
     /* Свойство content необходимо указывать хотя бы пустое, иначе псевдоэлементы не отобразятся */
     content: "";
@@ -22,16 +23,19 @@
     display: inline-block;
     vertical-align: middle;
     /* Ширина - 100% и указываем толщину линии */
-    width: 35px;
+    width: 37px;
     height: 2px;
     /* Цвет линии */
     background-color: #ffffff;
     /* Возможность для пседоэлементов изменить позицию линии */
-    position: relative;
+    position: fixed;
+    left: 1241px;
+    top:35px;
   }
   .menu:after {
     /* Ставим правую линию справа от текста, смещая ее на 100% вправо */
     margin-right: 70%;
     /* Отступ линии от заголовка */
     right: -10px;
+    
   }
